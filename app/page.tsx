@@ -10,8 +10,40 @@ export default function Home() {
   return (
     <main className="bg-black text-white overflow-x-hidden">
 
+      {/* NAVBAR */}
+<header className="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
+
+  <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <h1 className="text-2xl font-black tracking-widest">
+      RAMBAZAMBA
+    </h1>
+
+    <div className="flex gap-4 items-center">
+
+      <a
+        href="https://instagram.com"
+        target="_blank"
+        className="text-sm md:text-base hover:text-orange-400 transition"
+      >
+        Instagram
+      </a>
+
+      <a
+        href="/bilhete"
+        className="bg-orange-500 hover:bg-orange-400 px-5 py-2 rounded-full font-bold transition"
+      >
+        Bilhete
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
       {/* HERO SECTION */}
-      <section className="relative min-h-screen flex items-center justify-center">
+     <section className="relative min-h-screen flex items-center justify-center pt-24">
 
         {/* BACKGROUND IMAGE */}
         <div
