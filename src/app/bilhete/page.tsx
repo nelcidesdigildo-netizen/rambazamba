@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Heart } from "lucide-react";
-import { supabase } from src/lib/supabase.ts
+import { supabase } from "@/src/lib/supabase";
 
 export default function BilhetePage() {
 
